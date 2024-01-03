@@ -7,6 +7,7 @@ This is a Django app for user authentication with SignUp and Login functionality
 2. **Configure your database settings.**
 Update the database configuration in the settings.py file.
 3. **Run migrations.**
+   
    python manage.py makemigrations
    
    python manage.py migrate
