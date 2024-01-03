@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <h2>Welcome to the Profile, </h2>
+        <h3>UserName: <b><u>{{ user.username }}</u></b></h3>
+        
+        <!-- Your dashboard content goes here -->
+
+        <div class="mt-4">
+            <a href="{% url 'logout' %}" class="btn btn-danger">Logout</a>
+        </div>
+    </div>
+{% endblock %}
+
