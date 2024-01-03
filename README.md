@@ -8,8 +8,9 @@ This is a Django app for user authentication with SignUp and Login functionality
 Update the database configuration in the settings.py file.
 3. **Run migrations.**
    python manage.py makemigrations
+   
    python manage.py migrate
-4. **Start the development server**
+5. **Start the development server**
    python manage.py runserver
 
 The "Getting Started" section provides step-by-step instructions for someone who wants to set up and run your Django app locally. It covers cloning the repository, installing dependencies, configuring the database settings, running migrations, and starting the development server.
